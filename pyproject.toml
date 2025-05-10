@@ -6,10 +6,11 @@ build-backend = "flit_core.buildapi"
 name = "pybites-carbon"
 authors = [{name = "Bob Belderbos", email = "bob@pybit.es"}]
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.13"
 classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
 dependencies = [
+    "greenlet==3.2.1",
     "pyperclip >=1.8.2",
     "python-dotenv >=0.19.0",
     "selenium >=3.141.0",
